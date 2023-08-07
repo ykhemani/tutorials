@@ -13,7 +13,7 @@ create table account(
 --
 -- MySQL user that will be used by Vault to create other users on demand
 --
-create user 'fakebank-admin'@'%' identified by 'Sup&rSecre7!'
+create user 'fakebank-admin'@'%' identified by 'Sup&rSecre7!';
 grant all privileges on fakebank.* to 'fakebank-admin'@'%' with grant option;
 grant create user on *.* to 'fakebank-admin' with grant option;
 
